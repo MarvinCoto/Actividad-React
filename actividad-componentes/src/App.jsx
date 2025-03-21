@@ -15,6 +15,11 @@ import Formulario from './components/Formulario'
 import Register from './components/Sale'
 import Login from './components/Login'
 import BotonAmarillo from './components/BotonAmarillo'
+import Validar from './components/Validar'
+import Archivos from './components/Archivos'
+import Titulo from './components/Titulo'
+import Colores from './components/Colores'
+import Ciudades from './components/Ciudades'
 
 
 function App() {
@@ -55,6 +60,17 @@ function App() {
     <BotonAmarillo/>
     <br /> <br /> <br />
     <Login/>
+    <br /> <br /> <br />
+    <Validar/>
+    <br /> <br /> <br />
+    <Archivos/>
+    <br /> <br /> <br />
+    <Titulo/>
+    <br /> <br />
+    <Colores/>
+    <Titulo/>
+    <br /> <br />
+    <Ciudades/>
     </>
   )
 }
