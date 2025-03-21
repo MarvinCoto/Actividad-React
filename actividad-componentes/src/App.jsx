@@ -14,6 +14,7 @@ import ImageSmall from './components/ImageSmall'
 import Formulario from './components/Formulario'
 import Register from './components/Sale'
 import Login from './components/Login'
+import BotonAmarillo from './components/BotonAmarillo'
 
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
     <br /> <br /> <br />
     <Register/>
     <br /> 
-    <BotonVerde/>
+    <BotonAmarillo/>
     <br /> <br /> <br />
     <Login/>
     </>
