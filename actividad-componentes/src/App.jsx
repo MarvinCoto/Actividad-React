@@ -7,6 +7,13 @@ import BotonCarga from './components/BotonCarga'
 import BotonRecord from './components/BotonRecord'
 import Imagen from './components/Imagen'
 import Acordeon from './components/Acordeon'
+import Table from './components/Table'
+import Columna from './components/Columna'
+import Lista from './components/Lista'
+import ImageSmall from './components/ImageSmall'
+import Formulario from './components/Formulario'
+import Register from './components/Sale'
+import Login from './components/Login'
 
 
 function App() {
@@ -32,6 +39,21 @@ function App() {
     <br /> <br />
     <Acordeon/>
     <br /> <br />
+    <Table/>
+    <br /> <br />
+    <Columna/>
+    <br /> <br />
+    <Lista/>
+    <br /> <br />
+    <ImageSmall/>
+    <br /> <br /> <br />
+    <Formulario/>
+    <br /> <br /> <br />
+    <Register/>
+    <br /> 
+    <BotonVerde/>
+    <br /> <br /> <br />
+    <Login/>
     </>
   )
 }
